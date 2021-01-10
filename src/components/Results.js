@@ -1,9 +1,11 @@
 import React from "react";
+import "./Result.css";
+import VideoCard from "./VideoCard";
 
 const Results = () => {
   return (
     <div className="results">
-      <h1>Results</h1>
+      <VideoCard />
     </div>
   );
 };
